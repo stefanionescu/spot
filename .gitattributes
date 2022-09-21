@@ -1,0 +1,5 @@
+# Syntax highlighting of Sway files as Rust
+*.sw linguist-language=Rust
+
+# Syntax highlighting of ir files as LLVM
+*.ir linguist-language=LLVM

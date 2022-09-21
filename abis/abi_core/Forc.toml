@@ -1,0 +1,8 @@
+[project]
+authors = ["Stefan Ionescu"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "abi_core"
+
+[dependencies]
+abi_utils = { path = "../abi_utils" }

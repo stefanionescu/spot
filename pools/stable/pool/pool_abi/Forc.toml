@@ -1,0 +1,8 @@
+[project]
+authors = ["Stefan Ionescu"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "constant_sum_pool_abi"
+
+[dependencies]
+abi_utils = { path = "../../../../abis/abi_utils" }

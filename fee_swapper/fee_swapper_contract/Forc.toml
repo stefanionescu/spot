@@ -1,0 +1,12 @@
+[project]
+authors = ["Stefan Ionescu"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "fee_swapper_contract"
+
+[dependencies]
+fee_swapper_abi      = { path = "../fee_swapper_abi" }
+router_abi           = { path = "../../router/router_abi" }
+abi_utils            = { path = "../../abis/abi_utils" }
+abi_core             = { path = "../../abis/abi_core" }
+factory_registry_abi = { path = "../../factory_registry/factory_registry_abi" }

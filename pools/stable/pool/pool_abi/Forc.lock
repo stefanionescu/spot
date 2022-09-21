@@ -1,0 +1,22 @@
+[[package]]
+name = 'abi_utils'
+source = 'path+from-root-11854B5FB2303B32'
+dependencies = ['std']
+
+[[package]]
+name = 'constant_sum_pool_abi'
+source = 'root'
+dependencies = [
+    'abi_utils',
+    'std',
+]
+
+[[package]]
+name = 'core'
+source = 'path+from-root-615638564D57C8D6'
+dependencies = []
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/fuellabs/sway?tag=v0.20.2#6a8116fcee71aa960217b1672bac0c35d1fce42c'
+dependencies = ['core']

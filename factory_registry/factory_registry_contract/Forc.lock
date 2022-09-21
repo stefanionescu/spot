@@ -1,0 +1,40 @@
+[[package]]
+name = 'abi_core'
+source = 'path+from-root-E90245FF6AC561C3'
+dependencies = [
+    'abi_utils',
+    'std',
+]
+
+[[package]]
+name = 'abi_utils'
+source = 'path+from-root-E90245FF6AC561C3'
+dependencies = ['std']
+
+[[package]]
+name = 'core'
+source = 'path+from-root-615638564D57C8D6'
+dependencies = []
+
+[[package]]
+name = 'factory_registry_abi'
+source = 'path+from-root-E90245FF6AC561C3'
+dependencies = [
+    'abi_core',
+    'abi_utils',
+    'std',
+]
+
+[[package]]
+name = 'factory_registry_contract'
+source = 'root'
+dependencies = [
+    'abi_core',
+    'factory_registry_abi',
+    'std',
+]
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/fuellabs/sway?tag=v0.20.2#6a8116fcee71aa960217b1672bac0c35d1fce42c'
+dependencies = ['core']
